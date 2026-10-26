@@ -12,7 +12,7 @@ The application uses keyword matching to identify common health questions and di
 - Provide general health information through a simple interface.
 - Answer selected common health questions.
 - Display health and safety information.
-- Help users understand the importance of general health awareness.
+- Promote general health awareness.
 - Demonstrate Python programming and web application development.
 
 ## 3. Technologies Used
@@ -21,7 +21,6 @@ The application uses keyword matching to identify common health questions and di
 - Streamlit
 - Pytest
 - Visual Studio Code
-- HTML and CSS concepts through Streamlit's interface
 
 ## 4. Features
 
@@ -45,7 +44,7 @@ AI-Healthcare-Assistant/
 ├── screenshots/
 ├── tests/
 │   └── test_app.py
-└── .venv/
+└── .gitignore
 ```
 
 ## 6. Installation and Setup
@@ -74,9 +73,7 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-Open the local URL displayed in the terminal, usually:
-
-http://localhost:8501
+Open the local URL displayed in the terminal, usually http://localhost:8501.
 
 ## 7. Testing
 
@@ -93,21 +90,19 @@ The tests check:
 - Sleep-related questions
 - Unsupported-question fallback
 
-Test results: Three tests passed during development.
+Three tests passed during development.
 
 ## 8. Screenshots
 
-Screenshots of the working application are stored in the `screenshots/` folder.
-
-Add screenshots showing the pages and features that are actually implemented.
+Screenshots of the working application are stored in the `screenshots/` folder. Include screenshots of the features actually implemented.
 
 ## 9. Limitations
 
-- The application uses predefined responses and keyword matching.
-- It does not use a trained AI model or generate unrestricted AI answers.
-- It cannot diagnose diseases or prescribe treatments.
-- It may not recognize questions that use unexpected wording.
-- Its information should not replace professional medical advice.
+- Uses predefined responses and keyword matching.
+- Does not use a trained AI model.
+- Cannot diagnose diseases or prescribe treatments.
+- May not recognize questions with unexpected wording.
+- Does not replace professional medical advice.
 
 ## 10. Future Enhancements
 
